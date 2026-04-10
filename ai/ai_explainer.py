@@ -11,12 +11,9 @@ import streamlit as st
 from dotenv import load_dotenv
 from ontology.ontology_prompt_builder import build_prompt_from_ontology
 
-load_dotenv()
+#load_dotenv()
 
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY")) or st.secrets.get("OPENAI_API_KEY")
-
-
-
 
 
 def explain_with_ai(problem, solution, problem_type,mode="full"):
