@@ -10,14 +10,30 @@ from core.registry import list_problems, get_problem
 #from tutor.tutor_controller import Tutor
 
 # IMPORT tất cả dạng bài (QUAN TRỌNG)
-# Các bài taons liên quan đến PT bậc nhất
-import problem_types.linear_equation_basic
-import problem_types.linear_equation_simplify
-import problem_types.linear_equation_fraction
-import problem_types.linear_equation_parentheses
+# Các bài toán liên quan đến PT bậc nhất
+# from problem_types.linear_equation import LinearEquation
+# from problem_types.linear_equation import SimplifyLinearEquation
+# from problem_types.linear_equation import FractionLinearEquation
+# from problem_types.linear_equation import ParenthesesLinearEquation
+
+
+
+# I. Các bài toán liên quan đến PT bậc nhất
+# import problem_types.linear_equation_basic
+# import problem_types.linear_equation_simplify
+# import problem_types.linear_equation_fraction
+# import problem_types.linear_equation_parentheses
+
+from problem_types import linear_equation
+from problem_types import identity
 
 # Các bài toán liên quan đến Hằng đẳng thức
-import problem_types.identity_recognize
+# from problem_types.identity import ApplyIdentity
+# from problem_types.identity import ExpandIdentity
+# from problem_types.identity import FactorCommon
+# from problem_types.identity import FactorIdentity
+# from problem_types.identity import FactorGroup
+#import problem_types.identity_recognize
 
 
 #import problem_types.identity_recognize
